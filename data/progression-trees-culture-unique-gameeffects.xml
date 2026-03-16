@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
+	<Modifier id="MOD_JEC_WAGADU_TRADE_ROUTE_ESTABLISHED_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TRADE_ROUTE_ESTABLISHED" />
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_RANGED</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_JEC_WAGADU_TRADE_ROUTE_ESTABLISHED_GRANT_UNIT_DESCRIPTION</String>
+	</Modifier>
+
 	<!-- NODE_CIVIC_AQ_WAGADU_BAMBOUK -->
 
 	<!-- NODE_CIVIC_AQ_WAGADU_DINAR -->
@@ -10,10 +20,7 @@
 		<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_WAGADU_DINAR_NAME</Argument>
 		<String context="Description">LOC_MOD_JEC_DINAR_HAPPINESS_PER_NUM_TRADE_ROUTES_DESCRIPTION</String>
 	</Modifier>
-
-	<!-- NODE_CIVIC_AQ_WAGADU_GHANA -->
-
-
+<!-- NODE_CIVIC_AQ_WAGADU_GHANA -->
 	<!-- NODE_CIVIC_AQ_WAGADU_KAFU -->
 	<Modifier id="MOD_JEC_KAFU_MOD_CULTURE_TRADE" collection="COLLECTION_OWNER" effect="EFFECT_MODIFY_PLAYER_TRADE_YIELD_CONVERSION">
 		<Argument name="FromYieldType">YIELD_GOLD</Argument>

@@ -5,6 +5,10 @@
 			<Text>Wagadu Civics</Text>
 		</Row>
 
+		<Row Tag="LOC_MOD_JEC_WAGADU_TRADE_ROUTE_ESTABLISHED_GRANT_UNIT_DESCRIPTION">
+			<Text>Gain an Ranged Unit when establishing a trade route.</Text>
+		</Row>
+
 		<!-- NODE_CIVIC_AQ_WAGADU_BAMBOUK -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_WAGADU_BAMBOUK_QUOTE">
 			<Text>We lived in freedom Before man appeared: Our world was undisturbed, One day followed the other joyfully. Dissent was never heard. Then man broke into our forest, With cunning and belligerence. He pursued us With greed and envy: Our freedom vanished.</Text>
