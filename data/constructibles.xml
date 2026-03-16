@@ -63,19 +63,24 @@
 		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldType="YIELD_HAPPINESS" Amount="2"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="BUILDING_DOME_KA_YOROBA_JEC" YieldChangeId="DomeKaYorQuarterDiplomacy"/>
+		<Row ConstructibleType="BUILDING_DOME_KA_YOROBA_JEC" YieldChangeId="DomeKaYorQuarterDiplomacy"/>	
+		<Row ConstructibleType="BUILDING_DOME_KA_YOROBA_JEC" YieldChangeId="DomeKaYorResourceDiplomacy"/>
 		<Row ConstructibleType="BUILDING_DOME_KA_YOROBA_JEC" YieldChangeId="DomeKaYorWonderDiplomacy"/>
-		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="MountainCulture"/>
-		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="NaturalWonderCulture"/>
-		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="WonderCulture"/>
-		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="YiriSenumanQuarterCulture"/>
+
+		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="YiriSenumanQuarterHappiness"/>
+		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="MountainHappiness"/>
+		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="NaturalWonderHappiness"/>
+		<Row ConstructibleType="BUILDING_YIRI_SENUMAN_JEC" YieldChangeId="WonderHappiness"/>
+		
 
 		<Row ConstructibleType="BUILDING_PALACE" YieldChangeId="WagaduMazlimPalaceInfluence" RequiresActivation="true" />
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="DomeKaYorQuarterDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
+		<Row ID="DomeKaYorResourceDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
 		<Row ID="DomeKaYorWonderDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_WONDER"/>
-		<Row ID="YiriSenumanQuarterCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
+
+		<Row ID="YiriSenumanQuarterHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
 
 		<!-- TRADITION_WAGADU_MAZALIM -->
 		<Row ID="WagaduMazlimPalaceInfluence" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
