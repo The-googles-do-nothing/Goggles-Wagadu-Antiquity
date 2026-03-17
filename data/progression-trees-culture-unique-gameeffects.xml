@@ -12,6 +12,12 @@
 	</Modifier>
 
 	<!-- NODE_CIVIC_AQ_WAGADU_BAMBOUK -->
+	<Modifier id="MOD_JEC_WAGADU_TRANS_SAHARAN_TRADER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_TRANS_SAHARAN_TRADER_JEC</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<String context="Description">LOC_MOD_JEC_WAGADU_TRANS_SAHARAN_TRADER_DESCRIPTION</String>
+	</Modifier>
 
 	<!-- NODE_CIVIC_AQ_WAGADU_DINAR -->
 	<Modifier id="MOD_JEC_DINAR_HAPPINESS_PER_NUM_TRADE_ROUTES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">

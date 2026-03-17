@@ -23,6 +23,10 @@
 			<Text>x y z</Text>
 		</Row>
 		<!-- Modifiers -->
+		<Row Tag="LOC_MOD_JEC_WAGADU_TRANS_SAHARAN_TRADER_DESCRIPTION">
+			<Text>Gain a free [icon:UNIT_TRANS_SAHARAN_TRADER_JEC] Trans Saharan Trader.</Text>
+		</Row>
+
 
 		<!-- NODE_CIVIC_AQ_WAGADU_DINAR -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_WAGADU_DINAR_QUOTE">
