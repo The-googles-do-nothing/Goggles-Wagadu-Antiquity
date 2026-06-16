@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_WAGADU_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_WAGADU_JEC"/>		
+		<Row TraitType="TRAIT_WAGADU_JEC_ABILITY" ModifierId="TRAIT_MOD_GASSIRES_LUTE_DIPLOMACY_PER_NUM_TRADE_ROUTES"/>		
+	</TraitModifiers>
+	<Civilizations>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_WAGADU_JEC" />
+			<Set UniqueCultureProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME"/>
+		</Update>
+	</Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" TraitType="TRAIT_ANACHRONISTIC_CIV" />
+	</CivilizationTraits>
+</Database>

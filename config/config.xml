@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Leaders>
-	</Leaders>
-	<LeaderItems>
-
-	</LeaderItems>
-	<LeaderTags>
-
-	</LeaderTags>
-	<LeaderQuotes>
-
-	</LeaderQuotes>
-	<LeaderCivilizationBias>
-
-	</LeaderCivilizationBias>
 	<Civilizations>
 		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_WAGADU_JEC" CivilizationName="LOC_CIVILIZATION_WAGADU_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_WAGADU_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_WAGADU_JEC_DESCRIPTION" CivilizationIcon="civ_sym_wagadu_jec.png"/>
 	</Civilizations>
@@ -28,6 +14,7 @@
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_WAGADU_JEC" TagType="TAG_TRAIT_CULTURAL"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_WAGADU_JEC" TagType="TAG_TRAIT_POLITICAL"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_WAGADU_JEC" TagType="TAG_APEX_AGE_ANTIQUITY"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_WAGADU_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_AMINA" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_AMINA_WAGADU_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_WAGADU_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_WAGADU_JEC"/>		
+		<Row TraitType="TRAIT_WAGADU_JEC_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_WAGADU_JEC"/>		
+		<Row TraitType="TRAIT_WAGADU_JEC_ABILITY" ModifierId="TRAIT_MOD_GASSIRES_LUTE_DIPLOMACY_PER_NUM_TRADE_ROUTES"/>					
+	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_WAGADU_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_WAGADU_JEC" RequirementId="REQ_PLAYER_HAS_TRAIT_WAGADU_JEC" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_WAGADU_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_WAGADU_JEC" Name="TraitType" Value="TRAIT_WAGADU_JEC" />
+	</RequirementArguments>
+</Database>

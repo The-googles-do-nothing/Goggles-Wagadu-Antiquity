@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_WAGADU_JEC" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_WAGADU_JEC</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_WAGADU_JEC_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Larabanga Mosque: Has a Great Work slot and generates a free Codex. Additional Happiness for each Great Work in this Settlement. -->
+
+	<Modifier id="LARABANGA_MOSQUE_MOD_GREAT_WORK_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_LARABANGA_MOSQUE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">10</Argument>
+		<Argument name="Tooltip">LOC_WONDER_LARABANGA_MOSQUE_NAME</Argument>
+	</Modifier>
+
+</GameEffects>

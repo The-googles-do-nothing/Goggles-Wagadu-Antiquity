@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderSyncretismUnlocks>
+		<Row LeaderType="LEADER_AMINA" UnlockCivilizationType="LEADER_AMINA" />
+
+		<Row LeaderType="LEADER_HARRIET_TUBMAN" UnlockCivilizationType="LEADER_HARRIET_TUBMAN" />
+
+		<Row LeaderType="LEADER_IBN_BATTUTA" UnlockCivilizationType="LEADER_IBN_BATTUTA" />
+
+		<Row LeaderType="LEADER_XERXES_ALT" UnlockCivilizationType="CIVILIZATION_WAGADU_JEC" />
+	</LeaderSyncretismUnlocks>
+	<CivilizationSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" UnlockCivilizationType="CIVILIZATION_SONGHAI" />
+	</CivilizationSyncretismUnlocks>
+	<CivSelfSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" UnlockType="TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION" Kind="KIND_TRADITION" Age="AGE_EXPLORATION" ModifierID="MOD_UNLOCK_WAGADU_JEC_SYNCRETISM_EXPLORATION" />
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_EXPLORATION" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" UnlockType="TRADITION_WAGADU_JEC_SYNCRETISM_MODERN" Kind="KIND_TRADITION" Age="AGE_MODERN" ModifierID="MOD_UNLOCK_WAGADU_JEC_SYNCRETISM_MODERN" />
+		<Row CivilizationType="CIVILIZATION_WAGADU_JEC" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_MODERN" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+	</CivSelfSyncretismUnlocks>
+</Database>
+

@@ -1,0 +1,38 @@
+
+<Database>
+	<EnglishText>
+		<!-- ==================================================	-->
+		<!--	Swiss Confederacy							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_NODE_CIVIC_AQ_WAGADU_JEC_ORIGINS_NAME">
+			<Text>Wagadu Origins</Text>
+		</Row>
+
+
+		<Row Tag="LOC_NODE_CIVIC_EX_WAGADU_JEC_RENAISSANCE_NAME">
+			<Text>Wagadu Renaissance</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION_NAME">
+			<Text>Soninke I</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>Happiness Gold from Trade Routes.</Text>
+		</Row>
+
+		<Row Tag="LOC_NODE_CIVIC_MO_WAGADU_JEC_MODERNIZATION_NAME">
+			<Text>Wagadu Modernization</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_WAGADU_JEC_SYNCRETISM_MODERN_NAME">
+			<Text>Soninke 2</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WAGADU_JEC_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>Increased Gold from Trade Routes.</Text>
+		</Row>
+
+    </EnglishText>
+</Database>
+
+
+
+

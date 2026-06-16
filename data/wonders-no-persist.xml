@@ -4,5 +4,7 @@
 		<!--Wonders-->
 		<Row ConstructibleType="WONDER_LARABANGA_MOSQUE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
 	</Constructible_GreatWorks>
-
+	<ConstructibleModifiers>
+		<Row ConstructibleType="WONDER_LARABANGA_MOSQUE" ModifierId="MOD_LARABANGA_MOSQUE_FREE_CODEX"/>
+	</ConstructibleModifiers>
 </Database>

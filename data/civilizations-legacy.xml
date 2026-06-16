@@ -3,7 +3,6 @@
 	<Types>
 		<!-- Major Civs -->
 		<Row Type="TRAIT_WAGADU_JEC" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_WAGADU_JEC_2" Kind="KIND_TRAIT"/>
 		<Row Type="CIVILIZATION_WAGADU_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
@@ -15,7 +14,6 @@
 	</LegacyCivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_WAGADU_JEC" InternalOnly="true"/>
-		<Row TraitType="TRAIT_WAGADU_JEC_2" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_AMINA" CivilizationType="CIVILIZATION_WAGADU_JEC"/>

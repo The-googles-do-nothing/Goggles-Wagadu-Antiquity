@@ -25,7 +25,6 @@
 		<Row ConstructibleType="WONDER_LARABANGA_MOSQUE" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
-		<Row ConstructibleType="WONDER_LARABANGA_MOSQUE" ModifierId="MOD_LARABANGA_MOSQUE_FREE_CODEX"/>
 		<Row ConstructibleType="WONDER_LARABANGA_MOSQUE" ModifierId="LARABANGA_MOSQUE_MOD_GREAT_WORK_HAPPINESS"/>
 	</ConstructibleModifiers>
     <Constructible_Advisories>

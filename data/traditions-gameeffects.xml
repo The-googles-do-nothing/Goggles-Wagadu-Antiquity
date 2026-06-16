@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<!-- Antiquity -->
+
 	<!-- TRADITION_WAGADU_MAZALIM -->
-	<Modifier id="MOD_JEC_DINGA_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+	<Modifier id="MOD_JEC_DINGA_I_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<Argument name="ConstructibleAdjacency">WagaduMazlimPalaceInfluence</Argument>
-		<String context="Description">LOC_TRADITION_WAGADU_DINGA_DESCRIPTION</String>
+		<String context="Description">LOC_TRADITION_WAGADU_DINGA_I_DESCRIPTION</String>
 	</Modifier>
-	<!-- TRADITION_WAGADU_SALT_TAX -->
-	<Modifier id="MOD_JEC_SALT_TAX_MOD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_WAGADU_SALT_TAX_NAME</Argument>
-		<String context="Description">LOC_TRADITION_WAGADU_SALT_TAX_DESCRIPTION</String>
-	</Modifier>
+
 	<!-- TRADITION_WAGADU_KAYA_MAGHAN -->
 	<Modifier id="MOD_JEC_KAYA_MAGHAN_LAND_MOD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE_PER_SUZERAIN_OF">
 		<Argument name="DomainType">DOMAIN_LAND</Argument>
@@ -24,5 +20,48 @@
 		<Argument name="Amount">3</Argument>
 		<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_WAGADU_KAYA_MAGHAN_NAME</Argument>
 	</Modifier>
+	<!-- TRADITION_WAGADU_SALT_TAX -->
+	<Modifier id="MOD_JEC_SALT_TAX_MOD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_WAGADU_SALT_TAX_NAME</Argument>
+		<String context="Description">LOC_TRADITION_WAGADU_SALT_TAX_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Exploration -->
+	<Modifier id="MOD_JEC_DINGA_II_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleAdjacency">WagaduMazlimCityHallInfluence</Argument>
+		<String context="Description">LOC_TRADITION_WAGADU_DINGA_II_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Modern -->
+	<Modifier id="MOD_JEC_DINGA_III_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="ConstructibleAdjacency">WagaduMazlimCityHallInfluence</Argument>
+		<String context="Description">LOC_TRADITION_WAGADU_DINGA_III_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION -->
+	<Modifier id="MOD_WAGADU_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION_NAME</Argument>
+		<String context="Description">LOC_TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- TRADITION_WAGADU_JEC_SYNCRETISM_MODERN -->
+	<Modifier id="MOD_WAGADU_JEC_SYNCRETISM_MODERN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_WAGADU_DINAR_NAME</Argument>
+		<String context="Description">LOC_MOD_JEC_DINAR_HAPPINESS_PER_NUM_TRADE_ROUTES_DESCRIPTION</String>
+	</Modifier>
+
 
 </GameEffects>

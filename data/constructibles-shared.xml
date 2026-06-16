@@ -74,6 +74,7 @@
 		
 
 		<Row ConstructibleType="BUILDING_PALACE" YieldChangeId="WagaduMazlimPalaceInfluence" RequiresActivation="true" />
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="WagaduMazlimCityHallInfluence" RequiresActivation="true" />
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="DomeKaYorQuarterDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
@@ -82,8 +83,9 @@
 
 		<Row ID="YiriSenumanQuarterHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
 
-		<!-- TRADITION_WAGADU_MAZALIM -->
+		<!-- Traditions -->
 		<Row ID="WagaduMazlimPalaceInfluence" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
+		<Row ID="WagaduMazlimCityHallInfluence" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>

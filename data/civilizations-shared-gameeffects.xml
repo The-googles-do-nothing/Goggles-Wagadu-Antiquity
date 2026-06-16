@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Attributes -->
+
+	<Modifier id="TRAIT_MOD_GASSIRES_LUTE_DIPLOMACY_PER_NUM_TRADE_ROUTES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_WAGADU_JEC_ABILITY_NAME</Argument>
+		<String context="Description">LOC_CIVILIZATION_WAGADU_JEC_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Civ Standard -->
+</GameEffects>
