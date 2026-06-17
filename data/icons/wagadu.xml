@@ -15,13 +15,13 @@
 		<Row>
 			<ID>CIVILIZATION_WAGADU_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_wagadu/icons/lsbg_wagadu_1080</Path>
+			<Path>fs://game/goggles_civ_wagadu/icons/lsbg_wagadu_1080,png</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_WAGADU_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_wagadu/icons/lsbg_wagadu_720</Path>
+			<Path>fs://game/goggles_civ_wagadu/icons/lsbg_wagadu_720.png</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- Culture -->
