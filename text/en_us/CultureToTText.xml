@@ -1,14 +1,9 @@
 
 <Database>
 	<EnglishText>
-		<!-- ==================================================	-->
-		<!--	Swiss Confederacy							-->
-		<!-- ==================================================	-->
 		<Row Tag="LOC_NODE_CIVIC_AQ_WAGADU_JEC_ORIGINS_NAME">
 			<Text>Wagadu Origins</Text>
 		</Row>
-
-
 		<Row Tag="LOC_NODE_CIVIC_EX_WAGADU_JEC_RENAISSANCE_NAME">
 			<Text>Wagadu Renaissance</Text>
 		</Row>

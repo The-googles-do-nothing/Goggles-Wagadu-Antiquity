@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LeaderSyncretismUnlocks>
-		<Row LeaderType="LEADER_AMINA" UnlockCivilizationType="LEADER_AMINA" />
-
-		<Row LeaderType="LEADER_HARRIET_TUBMAN" UnlockCivilizationType="LEADER_HARRIET_TUBMAN" />
-
-		<Row LeaderType="LEADER_IBN_BATTUTA" UnlockCivilizationType="LEADER_IBN_BATTUTA" />
-
+		<Row LeaderType="LEADER_AMINA" UnlockCivilizationType="CIVILIZATION_WAGADU_JEC" />
+		<Row LeaderType="LEADER_HARRIET_TUBMAN" UnlockCivilizationType="CIVILIZATION_WAGADU_JEC" />
+		<Row LeaderType="LEADER_IBN_BATTUTA" UnlockCivilizationType="CIVILIZATION_WAGADU_JEC" />
 		<Row LeaderType="LEADER_XERXES_ALT" UnlockCivilizationType="CIVILIZATION_WAGADU_JEC" />
 	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>

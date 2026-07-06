@@ -121,7 +121,7 @@
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
-					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-shared.xml</Item>
 					<Item>data/wonders-shared-gameeffects.xml</Item>
 					<Item>data/wonders-shared.xml</Item>				
                 </UpdateDatabase>

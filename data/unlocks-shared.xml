@@ -27,6 +27,6 @@
 		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_WAGADU_JEC" RequirementId="REQ_CIV_IS_WAGADU_JEC"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
-
-    </UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SONGHAI" RequirementSetId="REQSET_CIV_IS_WAGADU_JEC" Description="LOC_UNLOCK_PLAY_AS_WAGADU_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_WAGADU_SONGHAI_TOOLTIP"/>
+	</UnlockRequirements>
 </Database>
