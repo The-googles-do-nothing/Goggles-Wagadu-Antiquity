@@ -47,6 +47,16 @@
 		<String context="Description">LOC_TRADITION_WAGADU_DINGA_III_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- ==================================================	-->
+	<!--	Unlock Syncretism Traditions				-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_UNLOCK_WAGADU_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_WAGADU_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_WAGADU_JEC_SYNCRETISM_MODERN</Argument>
+	</Modifier>
+
 	<!-- TRADITION_WAGADU_JEC_SYNCRETISM_EXPLORATION -->
 	<Modifier id="MOD_WAGADU_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
